@@ -1,0 +1,44 @@
+name: translate
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  translator: ^1.0.0
+  flutter_screenutil: ^5.9.0
+  flutter_svg_provider: ^1.0.7
+  rename: ^3.0.2
+  icons_launcher: ^2.1.7
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+
+  uses-material-design: true
+  assets:
+     - assets/images/
+     - assets/icons/
+  fonts:
+     - family: Roboto
+       fonts:
+         - asset: assets/fonts/Roboto/Roboto-Black.ttf
+         - asset: assets/fonts/Roboto/Roboto-Bold.ttf
+         - asset: assets/fonts/Roboto/Roboto-Light.ttf
+         - asset: assets/fonts/Roboto/Roboto-Medium.ttf
+         - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+         - asset: assets/fonts/Roboto/Roboto-Thin.ttf
+icons_launcher:
+  image_path: "assets/images/loggo.jpeg"
+  platforms:
+    android:
+      enable: true
+    ios:
+      enable: true
