@@ -11,6 +11,7 @@ class AppImages{
   static const String werd = "assets/images/loggo.jpg";
 
   //svg
+
   static const String changeIcon = "assets/icons/change.svg";
 
 }
